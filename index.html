@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Olga Grabchak Photographer</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index-layout.css">
 </head>
 <body>
-    <header>
-        <img src="image/logo.png" alt="logo" width="400">
+    <header id="main">
+        <img src="image/logo.png" alt="logo" width="400" id="logo">
         <nav>
-            <h3>ГОЛОВНА</h3>
-            <h3>ПОРТФОЛІО</h3>
-            <h3>ФОТОКНИГИ</h3>
-            <h3>ПРО МЕНЕ</h3>
-            <h3>КОНТАКТИ</h3>
+            <ul></ul>
+                <li><a href="#main">ГОЛОВНА</a></li>
+                <li><a href="#portfolio">ПОРТФОЛІО</a></li>
+                <li><a href="#albums">ФОТОКНИГИ</a></li>
+                <li><a href="#about">ПРО МЕНЕ</a></li>
+                <li><a href="#contacts">КОНТАКТИ</a></li>
+            </ul>
         </nav>
     </header>
-            <img src="image/slide_love_story.png" alt="love_story" width="1360">
+            <img src="image/slide_love_story.jpg" alt="love_story" width="100%" id="main">
             <br>
-    <article>
-        <img src="image/olga_grabchak.png" alt="olga_grabchak" width="250">
+    <article id="about" id="about">
+        <img src="image/olga_grabchak.png" alt="olga_grabchak" width="300">
         <br>
         <h2>ОЛЬГА ГРАБЧАК</h2>
         <p>Вітаю Вас на моїй персональній сторінці.<br>
@@ -31,7 +35,8 @@
         які Ви з радістю переглядатимете протягом років.
         </p>
     </article>
-        <nav>
+    <article>
+        <nav id="portfolio">
             <img src="image/children.png" alt="children">
             <img src="image/wedding.png" alt="wedding">
             <img src="image/pregnant.png" alt="pregnant">
@@ -40,9 +45,10 @@
             <img src="image/affiance.png" alt="affiance">
             <img src="image/lovestory.png" alt="lovestory">
             <img src="image/events.png" alt="events">
+    </article>    
         </nav>
     <article>
-        <h1>ЯСКРАВІ МОМЕНТИ<BR> BАШОГО ЖИТТЯ У ФОТОКНИГАХ</h1>
+        <h1 id="albums">ЯСКРАВІ МОМЕНТИ<BR> BАШОГО ЖИТТЯ У ФОТОКНИГАХ</h1>
         <nav>
             <img src="image/album_maria.png" alt="album_maria">
             <img src="image/album_iniaz.png" alt="album_iniaz">
@@ -50,21 +56,20 @@
             <img src="image/album_zirka.png" alt="album_zirka">
         </nav>
     </article>
-    <article>
-        <img src="image/contact_background.png" alt="contact_background" width="1360">
-        <h1>КОНТАКТИ</h1>
-        <img src="image/phone_logo.png" alt="phone_logo">
-        <h1>063 887 23 87</h1>
-        <nav>
-        <img src="image/facebook_logo.png" alt="facebook_logo">   
-        <img src="image/vk_logo.png" alt="vk_logo"> 
-        <img src="image/viber_logo.png" alt="viber_logo"> 
-        <img src="image/post_logo.png" alt="post_logo"> 
-        </nav>
-        
-        
-    </article>
     <footer>
+        <div>
+                <img src="image/contact_background.jpg" alt="contact_background" width="100%" id="contacts">
+                <h1>КОНТАКТИ</h1>
+                <img src="image/phone_logo.png" alt="phone_logo">
+                <h1>063 887 23 87</h1>
+            <nav>
+                <img src="image/facebook_logo.png" alt="facebook_logo">   
+                <img src="image/vk_logo.png" alt="vk_logo"> 
+                <img src="image/viber_logo.png" alt="viber_logo"> 
+                <img src="image/post_logo.png" alt="post_logo"> 
+            </nav>
+        </div>
+        <div>
         <h1>Написати мені</h1>
             <p>Якщо у Вас виникли запитання, я з радістю відповім Вам<br> та роз'ясню усі деталі</p>
                 <form method="post" action="https://formspree.io/olga1grabchak@gmail.com">
@@ -83,6 +88,7 @@
                         <br>
                     <input type="submit">
                 </form>
+        </div>        
     </footer>
 </body>
 </html>

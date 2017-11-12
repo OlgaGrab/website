@@ -1,0 +1,28 @@
+/*body {*/
+/*    display: flex;*/
+/*}*/
+/*body article {*/
+/*    min-width: 40%;*/
+/*}*/
+/*@media screen and (max-width: 720px) {*/
+/*    header {*/
+/*        height: 70px;        */
+/*    }*/
+/*    header h1 {*/
+/*        font-size: 12rem;*/
+/*    }*/
+
+/*    aside {*/
+/*        display: flex;*/
+/*        flex-wrap: wrap;*/
+/*    }*/
+/*    artical nav {*/
+/*        flex-basis: 50%;*/
+/*    }*/
+   
+/*}*/
+/*@media screen and (max-width: 450px) {*/
+/*    aside div {*/
+/*        flex-basis: 100%;*/
+/*    }*/
+/*}*/
