@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -21,7 +22,7 @@
             </ul>
         </nav>
     </header>
-            <img src="image/slide_love_story.jpg" alt="love_story" id="slide">
+            <img src="image/slide_love_story.jpg" alt="love_story" width="100%">
             <br>
     <article id="about">
         <img src="image/olga_grabchak.png" alt="olga_grabchak" width="300">
@@ -36,7 +37,7 @@
         </p>
     </article>
     <article>
-        <nav id="portfolio">
+        <nav id="portfolio" width="100%">
             <a href="children.html"><img src="image/children.png" alt="children"></a>
             <a href="wedding.html"><img src="image/wedding.png" alt="wedding"></a>
             <a href="pregnant.html"><img src="image/pregnant.png" alt="pregnant"></a>
@@ -47,13 +48,13 @@
             <a href="events.html"><img src="image/events.png" alt="events"></a>
         </nav>
     </article>     
-    <article id="albums">
-        <h1>ЯСКРАВІ МОМЕНТИ<BR> BАШОГО ЖИТТЯ У ФОТОКНИГАХ</h1>
+    <article>
+        <h1 id="albums">ЯСКРАВІ МОМЕНТИ<BR> BАШОГО ЖИТТЯ У ФОТОКНИГАХ</h1>
         <nav>
-            <a href="album_maria.html" class="albums"><img src="image/album_maria.png" alt="album_maria"></a>
-            <a href="album_iniaz.html" class="albums"><img src="image/album_iniaz.png" alt="album_iniaz"></a>
-            <a href="album_natalia.html" class="albums"><img src="image/album_natalia.png" alt="album_natalia"></a>
-            <a href="album_zirka.html" class="albums"><img src="image/album_zirka.png" alt="album_zirka"></a>
+            <img src="image/album_maria.png" alt="album_maria">
+            <img src="image/album_iniaz.png" alt="album_iniaz">
+            <img src="image/album_natalia.png" alt="album_natalia">
+            <img src="image/album_zirka.png" alt="album_zirka">
         </nav>
     </article>
     <footer>
@@ -70,25 +71,41 @@
             </nav>
         </div>
         <div>
+        <p>Page loaded: <span id="page-loaded"></span></p>     
         <h1>Написати мені</h1>
             <p>Якщо у Вас виникли запитання, я з радістю відповім Вам<br> та роз'ясню усі деталі</p>
-                <form method="post" action="https://formspree.io/olga1grabchak@gmail.com">
+                <form>
                         <br>
-                    <input type="text" name="client-name" required placeholder="Ваше Ім'я">
-                        <br>
-                        <br>
-                    <input type="email" name="client-name" required placeholder="Ваше Пошта">
-                        <br>
-                        <br>
-                    <input type="text" name="topic" placeholder="Тема">
+                        <label>
+                    <input type="text" id="name" required placeholder="Ваше Ім'я">
+                        </label>
                         <br>
                         <br>
-                    <textarea name="textarea" rows="8" cols="40" required placeholder="Деталі"></textarea>
+                        <label>
+                    <input type="email" id="email" required placeholder="Ваше Пошта">
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                    <input type="text" id="topic" placeholder="Тема">
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                    <textarea id="textarea" rows="8" cols="40" required placeholder="Деталі"></textarea>
+                        </label>
                         <br>
                         <br>
                     <input type="submit">
                 </form>
-        </div>        
+            </div> 
+            <div id="msg"></div>
+         <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="js/form.js"></script>
+              
     </footer>
 </body>
 </html> 

@@ -1,10 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-/*}*/
-/*element style {*/
-/*	margin: auto;*/
-/*}*/
+}
 
 
 body {
@@ -17,12 +14,9 @@ body {
 	max-width: 1600px;
 	color: #434343;
 }
-
-
 header {
 	height:70px;
 	padding: 40px 15px 1px 1px;
-	
 }
 
 /*nav li a {*/
@@ -63,11 +57,6 @@ nav li a {
 	color: #434343;
 }
 
-#slide {
-	background-position: center center;
-   size: cover;
-}
-
 #about {
     /*display: flex;*/
     /*justify-content: center;*/
@@ -87,7 +76,6 @@ article p {
 	font-size: 20px;
 }
     
-article a {
-	max-width: 25%;
+#portfolio {
 	width: 100%;
 }
