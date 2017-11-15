@@ -11,7 +11,7 @@ body {
 	background: #ffffff;
 	font-family: "verdana", Sans-serif;
 	/*text-transform: uppercase;*/
-	/*max-width: 1600px;*/
+	max-width: 1600px;
 	color: #434343;
 }
 #slide img{
@@ -82,21 +82,17 @@ article p {
 	font-size: 20px;
 }
     
-#portfolio a {
-    width: 100%;
-    z-index: -6;
-}
 
 #contact img {
 	width: 100%;
     z-index: -6;
 }
 
-#phone img {
+#phone {
 	display:flex;
     justify-content:center;
     align-items:center;
-    /*margin-top: -35%;*/
+    
 }
 
 #number { 
@@ -105,3 +101,10 @@ article p {
     align-items:center;
 	
 }
+#button {
+	display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
