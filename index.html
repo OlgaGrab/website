@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/index-layout.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" 
+        crossorigin="anonymous">
 </head>
+
 <body>
     <header id="main">
         <img src="image/logo.png" alt="logo" width="400" id="logo">
@@ -23,10 +27,45 @@
             </ul>
         </nav>
     </header>
-        <section id="slide">
-            <img src="image/slide_love_story.jpg" alt="love_story">
-        </section>    
-            <br>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="image/slide/slide_child_2.jpg" alt="slide_child_2">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/slide/slide_child.jpg" alt="slide_child">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/slide/slide_girls.jpg" alt="slide_girls">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/slide/slide_love_story.jpg" alt="slide_love_story">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/slide/slide_wedding.jpg" alt="slide_wedding">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/slide/slide_wedding_2.jpg" alt="slide_wedding_2">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/slide/slide_wedding_3.jpg" alt="slide_wedding_3">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/slide/slide_wedding_4.jpg" alt="slide_wedding_4">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/slide/slide_bride.jpg" alt="slide_bride">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
     <article id="about">
         <img src="image/olga_grabchak.png" alt="olga_grabchak" width="300">
         <br>
@@ -39,83 +78,28 @@
         які Ви з радістю переглядатимете протягом років.
         </p>
     </article>
-    <article>
-        <nav>
-            <a href="children.html"><img src="image/children.png" alt="children"></a>
-            <a href="wedding.html"><img src="image/wedding.png" alt="wedding"></a>
-            <a href="pregnant.html"><img src="image/pregnant.png" alt="pregnant"></a>
-            <a href="girls.html"><img src="image/girls.png" alt="girls"></a>
-            <a href="group.html"><img src="image/group.png" alt="group"></a>
-            <a href="affiance.html"><img src="image/affiance.png" alt="affiance"></a>
-            <a href="lovestory.html"><img src="image/lovestory.png" alt="lovestory"></a>
-            <a href="events.html"><img src="image/events.png" alt="events"></a>
-        </nav>
-    </article>     
-    <section>
-        <h1 id="albums">ЯСКРАВІ МОМЕНТИ<BR> BАШОГО ЖИТТЯ У ФОТОКНИГАХ</h1>
-        <container id="photobook">
-            <nav>
-                <a href="album_maria.html"><img src="image/album_maria.png" alt="album_maria"></a>
-                <a href="album_iniaz.html"><img src="image/album_iniaz.png" alt="album_iniaz"></a>
-                <a href="album_natalia.html"><img src="image/album_natalia.png" alt="album_natalia"></a>
-                <a href="album_zirka.html"><img src="image/album_zirka.png" alt="album_zirka"></a>
-            </nav>
-        </container>
-    </section>
-    <footer>
-        <section>    
-            <div id="contact">
-                <img src="image/contact_background.jpg" alt="contact_background" id="contacts">
-            </div>    
-            <div id="phone"> 
-                <h2>КОНТАКТИ</h2>
-            </div>
-            <div id="number">  
-                <img src="image/phone_logo.png" alt="phone_logo">
-                <h1>063 887 23 87</h1>
-            </div>       
-            <nav id="button">
-                <a href="https://www.facebook.com/grabchak.olga"><img src="image/facebook_logo.png" alt="facebook_logo"></a>  
-                <a href="https://www.vk.com/grabchak.olga"><img src="image/vk_logo.png" alt="vk_logo"></a> 
-                <img src="image/viber_logo.png" alt="viber_logo"> 
-                <img src="image/post_logo.png" alt="post_logo"> 
-            </nav>
-        </section>
-        <div>
-        <h1>Написати мені</h1>
-            <p>Якщо у Вас виникли запитання, я з радістю відповім Вам<br> та роз'ясню усі деталі</p>
-                <form>
-                        <br>
-                        <label>
-                    <input type="text" id="name" required placeholder="Ваше Ім'я">
-                        </label>
-                        <br>
-                        <br>
-                        <label>
-                    <input type="email" id="email" required placeholder="Ваше Пошта">
-                        </label>
-                        <br>
-                        <br>
-                        <label>
-                    <input type="text" id="topic" placeholder="Тема">
-                        </label>
-                        <br>
-                        <br>
-                        <label>
-                    <textarea id="textarea" rows="8" cols="40" required placeholder="Деталі"></textarea>
-                        </label>
-                        <br>
-                        <br>
-                    <input type="submit">
-                </form>
-            </div> 
-            <div id="msg"></div>
-         <script
-        src="https://code.jquery.com/jquery-3.2.1.min.js"
-        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    <div class="row">
+  <div class="col-3"><a href="children.html"><img src="image/children.png" alt="children"></a></div>
+  <div class="col-3"><a href="wedding.html"><img src="image/wedding.png" alt="wedding"></a></div>
+  <div class="col-3"><a href="pregnant.html"><img src="image/pregnant.png" alt="pregnant"></a></div>
+  <div class="col-3"><a href="girls.html"><img src="image/girls.png" alt="girls"></a></div>
+</div>
+<div class="row">
+  <div class="col"><a href="group.html"><img src="image/group.png" alt="group"></a></div>
+  <div class="col"><a href="affiance.html"><img src="image/affiance.png" alt="affiance"></a></div>
+  <div class="col"><a href="lovestory.html"><img src="image/lovestory.png" alt="lovestory"></a></div>
+  <div class="col"><a href="events.html"><img src="image/events.png" alt="events"></a></div>
+</div>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" 
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" 
         crossorigin="anonymous"></script>
-        <script src="js/form.js"></script>
-              
-    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" 
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 </body>
-</html> 
+
+</html>
