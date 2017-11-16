@@ -51,20 +51,62 @@ nav li a {
 
 #about {
     text-align: center;
-    padding-bottom: 170px;
-    padding-top: 140px;
+    padding-bottom: 300px;
+    padding-top: 200px;
+    color: #434343;
 }
 
 article h2 {
 	font-size: 24px;
-	padding-bottom: 15px;
-    padding-top: 15px;
+	padding-bottom: 20px;
+    padding-top: 20px;
+    color: #434343;
 }
 
 article p {
 	font-size: 20px;
 }
+
+/*div {*/
+/*	display: inline-block;*/
+/*}*/
+
+div img:hover {
+	box-shadow: 1px 1px 2px black, 0 0 25px grey;
+	/*width: 71%;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*#children:hover {*/
+/*	box-shadow: 1px 1px 2px black, 0 0 25px grey;*/
+/*	width: 71%;*/
+/*	display: flex;*/
+/*	justify-content: center;*/
+/*	align-items: center;*/
+/*}*/
+
+section {
+	text-align: center;
+    padding-bottom: 300px;
+    padding-top: 300px;
+}
+
+section h2 {
+	font-size: 48px;
+	padding-bottom: 20px;
+    padding-top: 20px;
     
+}
+
+section{
+	display: flex;
+}
+section a {
+	justify-content: center;
+	align-items: center;
+}
 
 /*#contact img {*/
 /*	width: 100%;*/
