@@ -1,23 +1,23 @@
-body {
-	max-width: 100%;
+/*body {*/
+/*	max-width: 100%;*/
 	/*index-z: -6;*/
-}
+/*}*/
 
 
-article nav {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-@media (max-width: 700px) {
-	article nav {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr;
-}
-article a {
-	width: 100%;
-}
+/*article nav {*/
+/*	display: grid;*/
+/*	grid-template-columns: 1fr 1fr 1fr 1fr;*/
+/*}*/
+/*@media (max-width: 700px) {*/
+/*	article nav {*/
+/*	display: grid;*/
+/*	grid-template-columns: 1fr 1fr;*/
+/*	grid-template-rows: 1fr;*/
+/*}*/
+/*article a {*/
+/*	width: 100%;*/
+/*}*/
 
-article img {
-	width: 100%;	
-}
+/*article img {*/
+/*	width: 100%;	*/
+/*}*/
