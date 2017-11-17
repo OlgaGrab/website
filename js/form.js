@@ -1,6 +1,10 @@
 $('form input[type="submit"]').click(sendForm);
 
 function sendForm(e) {
+    const form = $('form')[0];
+    if (!form.checkValidity()) {
+        return;
+    }
     e.preventDefault();
     $.ajax({
         url: "https://formspree.io/olga1grabchak@gmail.com", 
@@ -9,7 +13,7 @@ function sendForm(e) {
             name: $('#name').val(),
             email: $('#email').val(),
             topic: $('#topic').val(),
-            textarea: $('#textarea').val()
+            coments: $('#textarea').val()
         },
        dataType: "json"
     })
