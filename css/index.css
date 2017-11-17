@@ -10,7 +10,7 @@ body {
 	background: #ffffff;
 	font-family: "verdana", Sans-serif;
 	/*text-transform: uppercase;*/
-	max-width: 1600px;
+	/*max-width: 1600px;*/
 	color: #434343;
 }
 
@@ -70,6 +70,9 @@ article p {
 div img:hover {
 	box-shadow: 1px 1px 2px #222222, 2px 2px 3px #383838, 0 0 20px #383838;
 	/*width: 72%;*/
+}
+#contact img: hover {
+	box-shadow: 0 0 0 0;
 }
 
 section {
