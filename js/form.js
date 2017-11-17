@@ -13,7 +13,7 @@ function sendForm(e) {
             name: $('#name').val(),
             email: $('#email').val(),
             topic: $('#topic').val(),
-            coments: $('#textarea').val()
+            coments: $('#coments').val()
         },
        dataType: "json"
     })
@@ -21,7 +21,7 @@ function sendForm(e) {
         $('form')[0].reset();
         $('#msg').html('Дякую за звернення <br> Відповім при нагоді');
     })
-    .fail(function(){
-        $('#msg').html('Будь ласка, введіть текст');
-    });
+    // .fail(function(){
+    //     $('#msg').html('Будь ласка, введіть текст');
+    // });
 }

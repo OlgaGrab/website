@@ -10,7 +10,7 @@ body {
 	background: #ffffff;
 	font-family: "verdana", Sans-serif;
 	/*text-transform: uppercase;*/
-	/*max-width: 1800px;*/
+	max-width: 1600px;
 	color: #434343;
 }
 
@@ -63,7 +63,9 @@ article p {
 	font-size: 20px;
 }
 
-
+#potfolio {
+	padding: 30px 0 0 0;
+}
 
 div img:hover {
 	box-shadow: 1px 1px 2px #222222, 2px 2px 3px #383838, 0 0 20px #383838;
@@ -123,11 +125,11 @@ section h2 {
 .col-6 {
 	margin: 23px 0 0 15px;
 }
-#msg {
-	font-size: 24px;
-	color: #434343;
-	border: 1px solid green;
-}
+/*#msg {*/
+/*	font-size: 24px;*/
+/*	color: #434343;*/
+/*	border: 1px solid green;*/
+/*}*/
 
 
 
