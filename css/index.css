@@ -123,7 +123,11 @@ section h2 {
 .col-6 {
 	margin: 23px 0 0 15px;
 }
-
+#msg {
+	font-size: 24px;
+	color: #434343;
+	border: 1px solid green;
+}
 
 
 
