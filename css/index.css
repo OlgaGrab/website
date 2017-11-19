@@ -7,7 +7,7 @@ body {
 	margin: auto;
 	width: 100%;
 	height: 100%;
-	background: #ffffff;
+	/*background: #ffffff;*/
 	font-family: "verdana", Sans-serif;
 	/*text-transform: uppercase;*/
 	/*max-width: 1600px;*/
@@ -63,17 +63,46 @@ article p {
 	font-size: 20px;
 }
 
-#potfolio {
-	padding: 30px 0 0 0;
+
+#port1 {
+		padding-right: -15px;
+    padding-left: -15px;
+	
+}
+#port2 {
+	padding-right: -15px;
+    padding-left: -15px;
+}
+#port3 {
+		padding-right: -15px;
+    padding-left: -15px;
+}
+#port4 {
+	padding-right: -15px;
+    padding-left: -15px;
+}
+#port5 {
+	padding-right: -15px;
+    padding-left: -15px;
+}
+#port6 {
+		padding-right: -15px;
+    padding-left: -15px;
+}
+#port7 {
+		padding-right: -15px;
+    padding-left: -15px;
+}
+#port8 {
+		padding-right: -15px;
+    padding-left: -15px;
 }
 
 div img:hover {
 	box-shadow: 1px 1px 2px #222222, 2px 2px 3px #383838, 0 0 20px #383838;
 	/*width: 72%;*/
 }
-#contact img: hover {
-	box-shadow: 0 0 0 0;
-}
+
 
 section {
 	text-align: center;
@@ -89,21 +118,22 @@ section h2 {
 }
 
 #a1 {
-	margin: 15px 15px 15px -15px;
+	margin: 15px 15px 15px 15px;
 }
 #a2 {
-	margin: 15px -15px 15px 15px;
+	margin: 15px 15px 15px 15px;
 }
 #a3 {
-	margin: 15px 15px 15px -15px;
+	margin: 15px 15px 15px 15px;
 }
 #a4 {
-	margin: 15px -15px 15px 15px;
+	margin: 15px 15px 15px 15px;
 }
 
-#contact {
-	padding-bottom: 0px;
-    padding-top: 30px;
+footer {
+	 background-image: url(contact_background.jpg);
+	 /*background-size: 100%;*/
+  /*   background-repeat: no-repeat;*/
 }
 .sent {
 	display:flex;
@@ -128,11 +158,11 @@ section h2 {
 .col-6 {
 	margin: 23px 0 0 15px;
 }
-/*#msg {*/
-/*	font-size: 24px;*/
-/*	color: #434343;*/
-/*	border: 1px solid green;*/
-/*}*/
+#msg {
+	font-size: 24px;
+	color: #434343;
+	border: 1px solid green;
+}
 
 
 
