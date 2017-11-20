@@ -7,7 +7,7 @@ body {
 	margin: auto;
 	width: 100%;
 	height: 100%;
-	/*background: #ffffff;*/
+	background: #ffffff;
 	font-family: "verdana", Sans-serif;
 	/*text-transform: uppercase;*/
 	/*max-width: 1600px;*/
@@ -98,9 +98,9 @@ article p {
     padding-left: -15px;
 }
 
-div img:hover {
+#shadow img:hover {
 	box-shadow: 1px 1px 2px #222222, 2px 2px 3px #383838, 0 0 20px #383838;
-	/*width: 72%;*/
+	
 }
 
 
@@ -117,6 +117,9 @@ section h2 {
     color: #434343;
 }
 
+.col-5 img:hover {
+	box-shadow: 1px 1px 2px #222222, 2px 2px 3px #383838, 0 0 20px #383838;
+}
 #a1 {
 	margin: 15px 15px 15px 15px;
 }
@@ -130,58 +133,53 @@ section h2 {
 	margin: 15px 15px 15px 15px;
 }
 
-footer {
-	 background-image: url(contact_background.jpg);
-	 /*background-size: 100%;*/
-  /*   background-repeat: no-repeat;*/
-}
-.sent {
-	display:flex;
-    justify-content:space-around;
-    align-items:center;
-    flex-direction: column;
+/*.sent {*/
+/*	display:flex;*/
+/*    justify-content:space-around;*/
+/*    align-items:center;*/
+/*    flex-direction: column;*/
     
-}
-.sent h2 { 
-	text-align: center;
-	font-size: 36px;
-	padding-bottom: 20px;
-    padding-top: 20px;
-    color: #434343;
-}
+/*}*/
+/*.sent h2 { */
+/*	text-align: center;*/
+/*	font-size: 36px;*/
+/*	font-weight: bold;*/
+/*	padding-bottom: 20px;*/
+/*    padding-top: 70px;*/
+/*    color: #434343;*/
+/*}*/
 
-.sent p {
-	text-align: center;
-	font-size: 20px;
-    color: #434343;
-}
-.col-6 {
-	margin: 23px 0 0 15px;
-}
+/*.sent p {*/
+/*	text-align: center;*/
+/*	font-size: 20px;*/
+/*    color: #434343;*/
+/*}*/
+
+
 #msg {
 	font-size: 24px;
 	color: #434343;
 	border: 1px solid green;
 }
 
+#buttons {
+	display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top: -8%;
+}
 
+#submit {
+	display:flex;
+    justify-content:flex-end;
+    align-items:center;
+}
 
-
-/*#context h2{*/
-/*	padding-bottom: 170px;*/
-/*    padding-top: -300px;	*/
-/*}	*/
-
-/*.container {*/
-/*	position: relative;*/
-/*    text-align: center;*/
-/*    color: black;*/
+modal fade
+/*.modal-content {*/
+/*	background-color: #d8c2e0;*/
 /*}*/
 
-/*.contacts {*/
-/*    position: absolute;*/
-/*    top: 85%;*/
-/*    left: 50%;*/
-/*    transform: translate(-50%, -50%);*/
+/*.modal-header {*/
+/*	background-color: #bb4fe3;	*/
 /*}*/
-
